@@ -1,0 +1,28 @@
+{
+  "name": "cv-matrix-analysis-mcp",
+  "version": "1.1.0",
+  "description": "MCP service for CV and job opportunity matrix analysis and weighting",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "matrix-analysis",
+    "cv-optimization",
+    "job-matching"
+  ],
+  "author": "Ronald Wertlen",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}

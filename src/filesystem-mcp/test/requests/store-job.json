@@ -1,0 +1,20 @@
+{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "method": "tools/call",
+  "params": {
+    "name": "store_job",
+    "arguments": {
+      "jobId": "job-123",
+      "data": {
+        "title": "Senior Engineering Director",
+        "company": "TechCorp Inc",
+        "description": "Lead engineering teams in cloud infrastructure...",
+        "requirements": ["Leadership", "Kubernetes", "Team building"],
+        "url": "https://example.com/jobs/123",
+        "extractedAt": "2025-01-15T09:00:00Z",
+        "matrixId": "test-matrix-job-001"
+      }
+    }
+  }
+}

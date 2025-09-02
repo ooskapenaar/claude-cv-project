@@ -1,0 +1,49 @@
+/* CV Job Extractor Content Styles */
+
+.cv-extractor-highlight {
+  outline: 2px solid #007AFF !important;
+  outline-offset: 2px !important;
+  background-color: rgba(0, 122, 255, 0.1) !important;
+  transition: all 0.2s ease !important;
+}
+
+.cv-extractor-highlight:hover {
+  background-color: rgba(0, 122, 255, 0.2) !important;
+}
+
+/* Extraction indicator */
+.cv-extractor-indicator {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #007AFF;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 14px;
+  z-index: 10000;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  animation: cv-extractor-fade-in 0.3s ease;
+}
+
+@keyframes cv-extractor-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Success indicator */
+.cv-extractor-success {
+  background: #28a745 !important;
+}
+
+/* Error indicator */
+.cv-extractor-error {
+  background: #dc3545 !important;
+}

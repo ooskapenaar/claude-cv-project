@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "id": 5,
+  "method": "tools/call",
+  "params": {
+    "name": "store_matrix",
+    "arguments": {
+      "matrixId": "test-matrix-job-001",
+      "data": {
+        "type": "Job",
+        "entityId": "job-123",
+        "parameters": {
+          "leadership": 1.0,
+          "kubernetes": 0.9,
+          "team_building": 0.8,
+          "cloud_architecture": 0.95
+        },
+        "weights": {
+          "must_have": 0.9,
+          "nice_to_have": 0.1
+        }
+      }
+    }
+  }
+}

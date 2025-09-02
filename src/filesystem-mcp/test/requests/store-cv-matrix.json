@@ -1,0 +1,25 @@
+{
+  "jsonrpc": "2.0",
+  "id": 4,
+  "method": "tools/call",
+  "params": {
+    "name": "store_matrix",
+    "arguments": {
+      "matrixId": "test-matrix-cv-001",
+      "data": {
+        "type": "CV",
+        "entityId": "test-cv-tech-lead.md",
+        "parameters": {
+          "leadership": 0.9,
+          "kubernetes": 0.8,
+          "team_building": 0.95,
+          "ci_cd": 0.85
+        },
+        "weights": {
+          "experience_weight": 0.7,
+          "skills_weight": 0.3
+        }
+      }
+    }
+  }
+}

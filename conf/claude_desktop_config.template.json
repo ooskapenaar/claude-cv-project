@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "filesystem-mcp": {
+      "command": "node",
+      "args": ["{{PROJECT_ROOT}}/src/filesystem-mcp/dist/index.js"],
+      "env": {
+        "CV_PROJECT_ROOT": "{{PROJECT_ROOT}}"
+      }
+    },
+    "matrix-analysis-mcp": {
+      "command": "node", 
+      "args": ["{{PROJECT_ROOT}}/src/matrix-analysis-mcp/dist/index.js"]
+    },
+    "cv-generation-mcp": {
+      "command": "node",
+      "args": ["{{PROJECT_ROOT}}/src/cv-generation-mcp/dist/index.js"]
+    }
+  }
+}

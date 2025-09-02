@@ -1,0 +1,28 @@
+{
+  "name": "cv-generation-mcp",
+  "version": "1.0.1",
+  "description": "MCP service for intelligent CV generation and optimization",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "test": "tsx test/test-generation.ts"
+  },
+  "keywords": [
+    "mcp",
+    "cv-generation",
+    "cv-optimization",
+    "job-matching"
+  ],
+  "author": "Ronald Wertlen",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2"
+  }
+}

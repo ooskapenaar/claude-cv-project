@@ -1,0 +1,19 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "method": "tools/call",
+  "params": {
+    "name": "store_cv",
+    "arguments": {
+      "filename": "test-cv-tech-lead.md",
+      "content": "# Test CV\n\n## Summary\nTest CV for tech lead position\n\n## Experience\n- Led development teams\n- Implemented CI/CD",
+      "metadata": {
+        "matrixId": "test-matrix-cv-001",
+        "targetJobs": ["job-123", "job-456"],
+        "optimizationScore": 0.85,
+        "createdAt": "2025-01-15T10:30:00Z",
+        "tags": ["tech-lead", "management"]
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "jsonrpc": "2.0",
+  "id": 8,
+  "method": "tools/call",
+  "params": {
+    "name": "load_cv",
+    "arguments": {
+      "filename": "test-cv-tech-lead.md"
+    }
+  }
+}
